@@ -1,0 +1,48 @@
+.mainNav{
+    position: absolute;
+    left: 0;
+    background: #191919;
+    width: 220px;
+    height: 140px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+
+.navList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    z-index: 100;
+    width: 100%;
+}
+
+.listItem{
+
+}
+
+.navLink{
+    width: 150px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    background: #D9D9D9;
+    display: block;
+    color: #191919;
+    border-radius: 20px;
+}
+
+.navLink:hover{
+    filter: brightness(80%);
+}
+
+.navLink:active{
+    filter: brightness(50%);
+}

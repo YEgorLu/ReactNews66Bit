@@ -1,0 +1,18 @@
+.mainHeader{
+    height: 50px;
+    background: #191919;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.siteName{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.buttonsContainer{
+
+}

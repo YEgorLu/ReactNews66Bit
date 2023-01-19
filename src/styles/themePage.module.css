@@ -1,0 +1,22 @@
+.themeButton {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.themeButton:last-child{
+    margin-bottom: 0;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+}

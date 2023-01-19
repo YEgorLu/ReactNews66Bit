@@ -1,0 +1,41 @@
+.newsContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    grid-area: news;
+}
+
+.buttonsContainer{
+    display: flex;
+    align-self: flex-start;
+    position: fixed;
+    grid-column: 3;
+}
+
+.buttonsContainer > *{
+    margin-right: 10px;
+}
+
+.buttonsContainer > *:last-child{
+    margin-right: 0;
+}
+
+.buttonsMobileContainer{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    right: 10%;
+}
+
+.buttonsMobileContainer > *{
+    margin-bottom: 10px;
+}
+
+.buttonsMobileContainer > *:last-child{
+    margin-bottom: 0;
+}
+
+.newsPageContainer{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}

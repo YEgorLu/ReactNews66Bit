@@ -1,0 +1,21 @@
+.card{
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.card:last-child{
+    margin-bottom: 0;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
